@@ -78,5 +78,54 @@
 
     <title>Ren's Space</title>
   </head>
-  <body></body>
+  <body class="bg-soft-green">
+    <!-- Navbar -->
+    <nav
+      class="bg-army text-soft-gray px-10 py-4 flex justify-between items-center"
+    >
+      <div class="flex items-center gap-3">
+        <img
+          src="./assets/logo.png"
+          alt="logo"
+          class="w-10 h-10 rounded-full flex items-center justify-center"
+        />
+
+        <span class="text-xl font-bold font-macondo">Ren's Space</span>
+      </div>
+
+      <div class="flex gap-8 font-medium font-mali">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">Project</a>
+        <a href="#" class="hover:underline">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container mx-auto">
+      <!-- Hero Section -->
+      <section
+        class="relative h-[420px] flex items-center justify-center text-center text-soft-gray"
+      >
+        <div
+          class="absolute inset-0 bg-cover bg-center"
+          style="background-image: url('./assets/download.jpg')"
+        ></div>
+        <div class="absolute inset-0 bg-black/50"></div>
+
+        <div class="relative z-10 flex flex-col items-center font-mali">
+          <h1 class="text-4xl font-extrabold font-luckiest mb-2">Aren Teji</h1>
+          <p class="text-lg mb-4 font-bold">Frontend Developer</p>
+          <p class="text-sm w-[380px] font-semibold">
+            Build modern, responsive, clean experience interfaces using HTML,
+            CSS, JavaScript & Tailwind.
+          </p>
+
+          <a
+            href="#"
+            class="mt-6 px-6 py-2 bg-army text-soft-gray rounded-lg font-semibold"
+            >View My Work</a
+          >
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
